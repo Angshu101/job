@@ -39,7 +39,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
          echo "</table>";
         }
         else{
-            echo " 0 resultii" ;
+            echo " 0 resulti" ;
         }
         $con->close();
         ?>
