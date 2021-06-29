@@ -55,7 +55,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 </nav>
 <!-- navbar ends -->
 <div class="container mt-4">
-<h3><?php echo "Welcome ". $_SESSION['username']?>! You can now view and edit the applicant list</h3>
+<h3><?php echo "Welcome ". $_SESSION['username']?>! You can now view and edit the applicant list _server1</h3>
 <hr>
 </div>
 <br>

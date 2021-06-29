@@ -1,10 +1,10 @@
 <?php
-$con=mysqli_connect('localhost:3308','root','');
+$con=mysqli_connect('webserver.cfrqvabfhdst.us-east-2.rds.amazonaws.com:3306','webserver','Angshu123');
 if(!$con)
 {
     echo "NOT Connected";
 }
-if(!mysqli_select_db($con,'login')){
+if(!mysqli_select_db($con,'my_awsproj')){
     echo "DATABASE NOT CONNECTED";
 }
 $Full_name=$_POST['Full_name'];
@@ -23,5 +23,5 @@ else{
     echo "Inserted";
 }
 
-header("refresh:2; url=../index.html");
+header("refresh:2; url=https://angshukiitbucket.s3.us-east-2.amazonaws.com/index.html");
 ?>

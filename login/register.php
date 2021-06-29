@@ -36,7 +36,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
             }
         }
     }
-
     mysqli_stmt_close($stmt);
 
 
@@ -73,7 +72,7 @@ if(empty($username_err) && empty($password_err) && empty($confirm_password_err))
         // Try to execute the query
         if (mysqli_stmt_execute($stmt))
         {
-            header("location:index.php");
+            header("location: index.php");
         }
         else{
             echo "Something went wrong... cannot redirect!";
@@ -99,18 +98,18 @@ mysqli_close($conn);
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Frusco-Admin login system!</title>
+    <title>Frusco-Admin login system!_server2</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Admin Register System</a>
+  <a class="navbar-brand" href="#">Php Login System _server1</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://angshukiitbucket.s3.us-east-2.amazonaws.com/index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="register.php">Register</a>
@@ -157,8 +156,7 @@ mysqli_close($conn);
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
 </div>
-<?php include('./footer.php');?>
-
+<?php include('footer.php');?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

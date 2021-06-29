@@ -26,7 +26,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
             <th>job_role</th>
         </tr>
         <?php
-        $con=mysqli_connect("localhost:3308","root","","login");
+        $con=mysqli_connect("webserver.cfrqvabfhdst.us-east-2.rds.amazonaws.com","webserver","Angshu123","my_awsproj");
         if($con->connect_error){
             die("Connection failed". $con->connect_error);
         }
