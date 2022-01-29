@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('webserver.cfrqvabfhdst.us-east-2.rds.amazonaws.com:3306','webserver','Angshu123');
+$con=mysqli_connect('database-1.cfrqvabfhdst.us-east-2.rds.amazonaws.com','webserver','Angshu123');
 if(!$con)
 {
     echo "NOT Connected";

@@ -3,7 +3,7 @@
 This file contains database configuration assuming you are running mysql using user "root" and password ""
 */
 
-define('DB_SERVER', 'webserver.cfrqvabfhdst.us-east-2.rds.amazonaws.com');
+define('DB_SERVER', 'database-1.cfrqvabfhdst.us-east-2.rds.amazonaws.com');
 define('DB_USERNAME', 'webserver');
 define('DB_PASSWORD', 'Angshu123');
 define('DB_NAME', 'my_awsproj');
