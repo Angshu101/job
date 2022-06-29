@@ -50,7 +50,7 @@ if(empty($err))
                             $_SESSION["loggedin"] = true;
 
                             //Redirect user to welcome page
-                            header("location: admin.php");
+                            header("location:admin.php");
                             
                         }
                     }
